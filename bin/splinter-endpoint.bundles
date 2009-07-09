@@ -1,0 +1,9 @@
+mvn:org.ops4j.pax.logging/pax-logging-api@1
+mvn:org.ops4j.pax.logging/pax-logging-service@1
+mvn:rosgi/rosgi/1.0-RC4@1
+
+mvn:org.apache.felix/org.apache.felix.dependencymanager/2.0.2-SNAPSHOT@3
+mvn:org.apache.felix/org.apache.felix.deploymentadmin/0.9.0-SNAPSHOT@3
+
+mvn:org.ops4j.splinter/splinter-api/0.1.0-SNAPSHOT@5
+mvn:org.ops4j.splinter/splinter-service/0.1.0-SNAPSHOT@6

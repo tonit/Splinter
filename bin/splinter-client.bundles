@@ -1,0 +1,9 @@
+mvn:org.ops4j.splinter/splinter-api/0.1.0-SNAPSHOT@5
+mvn:org.ops4j.splinter/splinter-client/0.1.0-SNAPSHOT@6
+
+mvn:rosgi/rosgi/1.0-RC4@3
+mvn:org.ops4j.pax.logging/pax-logging-api@2
+mvn:org.ops4j.pax.logging/pax-logging-service@2
+
+mvn:org.ops4j.pax.url/pax-url-mvn/0.6.0-SNAPSHOT
+-Dch.ethz.iks.r_osgi.port=9999

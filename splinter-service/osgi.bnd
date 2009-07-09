@@ -1,0 +1,23 @@
+Bundle-Activator:\
+ org.ops4j.splinter.intern.Activator
+
+Embed-Dependency: *;scope=provided;type=!pom;inline=false
+
+Export-Package:\
+ !org.ops4j.splinter.intern
+
+Import-Package:\
+ !javax.servlet,\
+ org.ops4j.splinter.api,\
+ org.ops4j.splinter.api.*,\
+ org.osgi.service.*,\
+ javax.*,\
+ org.osgi.*,\
+ ch.ethz.*,\
+ !*
+
+-removeheaders:\
+  Private-Package,\
+  Include-Resource,\
+  Embed-Dependency,\
+  Embed-Transitive

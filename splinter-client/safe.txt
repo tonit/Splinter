@@ -1,0 +1,20 @@
+Bundle-Activator:\
+ org.ops4j.pax.splinter.client.Activator
+
+Embed-Dependency: *;scope=provided;type=!pom;inline=false,rosgi;inline=true
+#Bundle-ClassPath: .,asm-3.0.jar
+
+Export-Package:\
+ !org.ops4j.pax.splinter.client
+
+Import-Package:\
+ !javax.servlet,\
+ javax.*,\
+ org.osgi.*,\
+ !*
+
+-removeheaders:\
+  Private-Package,\
+  Include-Resource,\
+  Embed-Dependency,\
+  Embed-Transitive

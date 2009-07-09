@@ -1,0 +1,4 @@
+--workingDirectory=../target/splinter-client-work
+--clean
+--platform=felix
+#--profiles=url

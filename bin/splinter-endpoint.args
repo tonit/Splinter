@@ -1,0 +1,4 @@
+--workingDirectory=../target/splinter-endpoint-work
+--clean
+--platform=felix
+--log=debug
