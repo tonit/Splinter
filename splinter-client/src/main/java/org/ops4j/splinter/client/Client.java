@@ -50,7 +50,7 @@ public class Client
             BinaryHandle original = cache.store( newDeploymentPackage()
                 .setSymbolicName( "MyFirstDeploymentPackage" )
                 .setVersion( "1.0.0" )
-                .setBundle( "t2", "mvn:org.ops4j.pax.url/pax-url-wrap/1.1.0-SNAPSHOT" )
+                .setBundle( "t2", "mvn:org.ops4j.pax.web/pax-web-service/0.6.0" )
                 .build()
             );
 

@@ -1,19 +1,14 @@
 package org.ops4j.splinter.api;
 
-import java.rmi.RemoteException;
 import java.io.Serializable;
-import org.osgi.service.deploymentadmin.DeploymentPackage;
-import org.osgi.service.deploymentadmin.BundleInfo;
-import org.osgi.framework.Version;
 import org.osgi.framework.Bundle;
 import org.osgi.framework.ServiceReference;
+import org.osgi.framework.Version;
+import org.osgi.service.deploymentadmin.BundleInfo;
+import org.osgi.service.deploymentadmin.DeploymentPackage;
 
 /**
- * Created by IntelliJ IDEA.
- * User: tonit
- * Date: Jul 8, 2009
- * Time: 3:40:45 PM
- * To change this template use File | Settings | File Templates.
+ * DeploymentPackage adapter to be used as a remote copy.
  */
 public class ExternDeploymentPackage implements DeploymentPackage, Serializable
 {
@@ -82,13 +77,13 @@ public class ExternDeploymentPackage implements DeploymentPackage, Serializable
         return null;
     }
 
-    public void uninstall(){
-
+    public void uninstall()
+    {
 
     }
 
     public boolean uninstallForced()
     {
-        return false; 
+        return false;
     }
 }

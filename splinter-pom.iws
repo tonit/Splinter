@@ -69,46 +69,10 @@
   <component name="FileColors" enabled="false" enabledForTabs="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="splinter-endpoint.args" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/splinter-endpoint.args">
+      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/splinter-client/src/main/java/org/ops4j/splinter/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splinter-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="osgi.bnd" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splinter-service/osgi.bnd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="20" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="osgi.bnd" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splinter-api/osgi.bnd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExternDeploymentAdminImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/splinter-api/src/main/java/org/ops4j/splinter/api/ExternDeploymentAdminImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="2" selection-start="376" selection-end="376" vertical-scroll-proportion="0.2455516">
+            <state line="57" column="41" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,7 +83,7 @@
       <file leaf-file-name="ExternDeploymentPackage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splinter-api/src/main/java/org/ops4j/splinter/api/ExternDeploymentPackage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="44" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+            <state line="10" column="57" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,38 +91,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splinter-api/src/main/java/org/ops4j/splinter/api/Constants.java">
+      <file leaf-file-name="ExternDeploymentAdminImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/splinter-api/src/main/java/org/ops4j/splinter/api/ExternDeploymentAdminImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splinter-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="0" selection-start="2604" selection-end="2604" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splinter-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="3" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="45" column="0" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.46461537">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/splinter-api/src/main/java/org/ops4j/splinter/api/Constants.java" />
         <option value="$PROJECT_DIR$/splinter-api/osgi.bnd" />
         <option value="$PROJECT_DIR$/splinter-client/osgi.bnd" />
         <option value="$PROJECT_DIR$/splinter-service/osgi.bnd" />
@@ -181,14 +119,15 @@
         <option value="$PROJECT_DIR$/splinter-client/pom.xml" />
         <option value="$PROJECT_DIR$/splinter-service/pom.xml" />
         <option value="$PROJECT_DIR$/bin/splinter-endpoint.bundles" />
-        <option value="$PROJECT_DIR$/splinter-client/src/main/java/org/ops4j/splinter/client/Client.java" />
         <option value="$PROJECT_DIR$/splinter-service/src/main/java/org/ops4j/splinter/intern/ExternDeploymentPackage.java" />
         <option value="$PROJECT_DIR$/bin/splinter-client.args" />
         <option value="$PROJECT_DIR$/bin/splinter-client.bundles" />
         <option value="$PROJECT_DIR$/splinter-service/src/main/java/org/ops4j/splinter/intern/ExternDeploymentAdminImpl.java" />
         <option value="$PROJECT_DIR$/splinter-service/src/main/java/org/ops4j/splinter/intern/Activator.java" />
         <option value="$PROJECT_DIR$/splinter-api/pom.xml" />
+        <option value="$PROJECT_DIR$/splinter-client/src/main/java/org/ops4j/splinter/client/Client.java" />
         <option value="$PROJECT_DIR$/splinter-api/src/main/java/org/ops4j/splinter/api/ExternDeploymentPackage.java" />
+        <option value="$PROJECT_DIR$/splinter-api/src/main/java/org/ops4j/splinter/api/ExternDeploymentAdminImpl.java" />
       </list>
     </option>
   </component>
@@ -226,8 +165,14 @@
           <option name="myItemId" value="splinter-pom" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
+      </PATH>
+      <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="splinter-service" />
+          <option name="myItemId" value="splinter-pom" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="splinter-client" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -237,11 +182,11 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="splinter-service" />
+          <option name="myItemId" value="splinter-client" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="splinter-service" />
+          <option name="myItemId" value="splinter-client" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -251,29 +196,11 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="splinter-service" />
+          <option name="myItemId" value="splinter-client" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="splinter-service" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="splinter-pom" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="splinter-service" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="splinter-service" />
+          <option name="myItemId" value="splinter-client" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -301,14 +228,8 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="intern" />
+          <option name="myItemId" value="client" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="splinter-pom" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -629,15 +550,15 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="23" width="1420" height="673" extended-state="0" />
+    <frame x="4" y="22" width="1423" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20131291" sideWeight="0.65818185" order="3" side_tool="false" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20087336" sideWeight="0.904" order="3" side_tool="false" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2684172" sideWeight="0.65818185" order="0" side_tool="false" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32909092" sideWeight="0.5" order="1" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26783115" sideWeight="0.904" order="0" side_tool="false" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.086666666" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19272727" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
@@ -734,15 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splinter-client/src/main/java/org/ops4j/splinter/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/splinter-client/src/main/java/org/ops4j/splinter/client/InstallSplinterServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="13" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
@@ -805,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splinter-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="2604" selection-end="2604" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/splinter-api/osgi.bnd">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
@@ -826,9 +731,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/splinter-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="0" selection-start="2604" selection-end="2604" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splinter-client/src/main/java/org/ops4j/splinter/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="41" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/splinter-api/src/main/java/org/ops4j/splinter/api/ExternDeploymentPackage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="44" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+        <state line="10" column="57" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -837,7 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/splinter-api/src/main/java/org/ops4j/splinter/api/ExternDeploymentAdminImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="376" selection-end="376" vertical-scroll-proportion="0.2455516">
+        <state line="45" column="0" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.46461537">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

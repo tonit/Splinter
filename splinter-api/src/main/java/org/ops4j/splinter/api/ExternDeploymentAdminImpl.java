@@ -1,7 +1,6 @@
 package org.ops4j.splinter.api;
 
 import java.io.InputStream;
-import java.io.Serializable;
 import java.util.Date;
 import org.osgi.framework.Bundle;
 import org.osgi.service.deploymentadmin.DeploymentAdmin;
@@ -10,9 +9,10 @@ import org.osgi.service.deploymentadmin.DeploymentPackage;
 import org.osgi.util.tracker.ServiceTracker;
 
 /**
- *
+ * Remote DeploymentAdmin implementation.
+ * Each return value will be translated to a immutable value object (serializable)
  */
-public class ExternDeploymentAdminImpl implements DeploymentAdmin, Serializable
+public class ExternDeploymentAdminImpl implements DeploymentAdmin
 {
 
     private ServiceTracker m_tracker;
@@ -27,37 +27,42 @@ public class ExternDeploymentAdminImpl implements DeploymentAdmin, Serializable
     }
 
     public DeploymentPackage installDeploymentPackage( InputStream inputStream )
+        throws DeploymentException
 
     {
-        try
-        {
-            System.out.println( "-----------------------------------------installing.." );
-            DeploymentPackage aPackage = new ExternDeploymentPackage( ( (DeploymentAdmin) m_tracker.getService() ).installDeploymentPackage( inputStream ) );
-            System.out.println( "Done. DP is " + aPackage );
-            return aPackage;
-        } catch( DeploymentException e )
-        {
-            throw new RuntimeException( e );
-        }
+        return new ExternDeploymentPackage( ( getDeploymentAdmin() ).installDeploymentPackage( inputStream ) );
+
     }
 
     public DeploymentPackage[] listDeploymentPackages()
     {
-        return null;
+        DeploymentPackage[] deploymentPackages = ( getDeploymentAdmin().listDeploymentPackages());
+        // wrap each to new extern array:
+        for( int i = 0; i < deploymentPackages.length; i++ )
+        {
+            deploymentPackages[ i ] = new ExternDeploymentPackage( deploymentPackages[ i ] );
+        }
+        return deploymentPackages;
+
     }
 
     public DeploymentPackage getDeploymentPackage( String s )
     {
-        return null; //( (DeploymentAdmin) m_tracker.getService() ).getDeploymentPackage( s );
+        return new ExternDeploymentPackage( getDeploymentAdmin().getDeploymentPackage( s ) );
     }
 
     public DeploymentPackage getDeploymentPackage( Bundle bundle )
     {
-        return null; //( (DeploymentAdmin) m_tracker.getService() ).getDeploymentPackage( bundle );
+        return new ExternDeploymentPackage( getDeploymentAdmin().getDeploymentPackage( bundle ) );
     }
 
     public boolean cancel()
     {
-        return false; // ( (DeploymentAdmin) m_tracker.getService() ).cancel();
+        return getDeploymentAdmin().cancel();
+    }
+
+    private DeploymentAdmin getDeploymentAdmin()
+    {
+        return (DeploymentAdmin) m_tracker.getService();
     }
 }
